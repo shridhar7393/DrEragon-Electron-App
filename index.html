@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body><div id="landing_div" class="landing_div">
+    <h1>Hello Dr. Eragon</h1>
+    <div class="pl">
+        <div class="pl__outer-ring"></div>
+        <div class="pl__inner-ring"></div>
+        <div class="pl__track-cover"></div>
+        <div class="pl__ball">
+            <div class="pl__ball-texture"></div>
+            <div class="pl__ball-outer-shadow"></div>
+            <div class="pl__ball-inner-shadow"></div>
+            <div class="pl__ball-side-shadows"></div>
+        </div>
+    </div></div>
+    <!-- <div style="display: flex; justify-content: center; align-items: center; height: 100vh; width: 100vw; background-color: #212531;">
+  
+        <span class="loader"></span>
+      
+      </div> -->
+    <!-- <p>Hit any key with this window focused to see it captured here.</p>
+    <div><span>Last Key Pressed: </span><span id="last-keypress"></span></div> -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
